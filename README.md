@@ -13,3 +13,6 @@ DESIGN
 The most significant files are the "combat.py," "q_table.py," and "ql_agent.py" files, but these will be discussed later, as it is most clear to describe the overall architecture, and describe the relevant methods and files.
 
 FUTURE CHANGES
+
+AUTHORSHIP
+This game was almost entirely written by myself. All relevant q-learning methods and files were entirely proprietary, and if ChatGPT was used to write a method or file, it was noted. ChatGPT was, however, used in debugging as well to fix syntax or logical errors.
