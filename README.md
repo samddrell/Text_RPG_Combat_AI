@@ -14,9 +14,9 @@ The most significant files are the "combat.py," "q_table.py," and "ql_agent.py" 
 
 This program exploited the ability to pass methods as parameters, and the entire functionality of this program relies on this ability. Below is a flowchart that demonstrates the order of method calls (excluding constructors), and it includes the location of the method definitions.
 
-display_menu (in main_menu.py)
+    display_menu (in main_menu.py)
 
-  -> begin_combat_with_ai (in combat.py)
+    -> begin_combat_with_ai (in combat.py)
   
       -> train (in ql_agent.py)
       
