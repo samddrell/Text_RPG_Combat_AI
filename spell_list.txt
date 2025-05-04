@@ -1,0 +1,63 @@
+LIGHTNING STRIKE - Fulmen ictus
+    MANA: 3
+    call Mob take damage
+    call self mana deplete
+    if under ground type, immune
+
+TREMOR - Terrae motus
+    MANA: 2
+    call mob take damage
+    call self mana deplete
+    if air type, immune
+
+INSIGHT - Intellectus Hostis
+    MANA: 4
+    call mob display stats
+    call self mana deplete
+
+HEAL - Sana Sui Corporis
+    MANA: 4
+    call self heal 
+
+GIANT FLYTRAP - Gigas muscipula
+    MANA: 1
+    call mob take damage
+    if ground type, immune
+
+DONUT BEAM - Circulus radius
+    MANA: 1
+    call mob take damage
+    if ground type, immune
+
+AURA SHIELD - Aura scutum
+    MANA: 1
+    CHANGE PLAYER TAKE DAMAGE CALL TRUTH ATTRIBUTE TO FALSE
+    CHANGE BACK TO TRUE AFTER CERTAIN TIME
+    IMCREASE DAMAGE
+
+PHANTOM KNIGHT - Phantasma miles
+    MANA: 2
+    CREATE MOB 
+    ALL ENEMY DAMAGE WILL NOW AFFECT MOB 
+    WHEN MOB IS BELOW A CERTAIN HEALTH, BOOST PLAYER ATTACK
+
+REJUVINATE - Rejuvenescere
+    MANA: 2
+    INCREASE HEALTH 
+
+SPRING TRAP - Ver muscipula
+    MANA: 2
+    CHANGE GROUND STATUS 
+    CHANGE MOB ATTACK TO FALSE
+
+VIEW STATISTICS - Spectare statistica
+    MANA: 1
+    DISPLAY MOB STATS IN NEW FILE
+
+TELEPORT - transmittere
+    MANA: 2
+    END COUNTER
+
+FREEZE - Congelare
+    MANA: 1
+    CHANGE MOB ATTACK TO FALSE
